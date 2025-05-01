@@ -1,0 +1,43 @@
+.header {
+    background-color: var(--primary-color);
+    padding: 30px 0;
+}
+
+.logoContainer {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: -30px;
+    width: 270px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav {
+    margin-left: auto;
+    width: fit-content;
+}
+
+.list {
+    margin: 0 -24px;
+}
+
+.list li {
+    display: inline-block;
+    padding: 0 24px;
+}
+
+.navLink {
+    font-weight: 600;
+    font-size: 4.5rem;
+    color: var(--secondary-color);
+}
+
+.active {
+    text-decoration-color: var(--secondary-color);
+}
