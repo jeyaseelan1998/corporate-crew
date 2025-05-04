@@ -1,12 +1,14 @@
-import { Link } from 'react-router-dom';
 import React from 'react';
 
+import { images } from "../../../helper/images";
+import Button from '../../Button';
+import Spacer from '../../Spacer';
 import Section from '../../Section';
-import earth from '../../../assets/earth.png';
 
 import style from './style.module.css';
 
 const TextWithImage = () => {
+
     return (
         <Section>
             <div className={style.container}>
@@ -16,18 +18,15 @@ const TextWithImage = () => {
                         Heart of your <br />
                         Target Audience
                     </h1>
-
+                    <Spacer size={25} />
                     <p className={style.text}>Start a free 30-Minute Strategy chat</p>
-
-                    <Link className={style.button} to={"#"}>
-                        Start Now
-                    </Link>
-
+                    <Spacer size={30} />
+                    <Button text="Start Now" />
                 </div>
                 <div className={style.col50}>
                     <div className={style.imageContainer}>
                         <div className={style.sizer}></div>
-                        <img src={earth} />
+                        <img src={images.Earth} />
                     </div>
                 </div>
             </div>

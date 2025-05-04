@@ -1,8 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
 import React from "react";
 
+import { images } from "../../helper/images";
 import Container from "../../Components/Container";
-import logo from "../../assets/logo.png";
 
 import style from './style.module.css';
 
@@ -21,7 +21,7 @@ const Header = () => {
             <Container className={style.background}>
                 <div className={style.logoContainer}>
                     <div className={style.logo}>
-                        <img src={logo} alt="Crew Logo" />
+                        <img src={images.Logo} alt="Crew Logo" />
                     </div>
                 </div>
                 <nav className={style.nav}>
