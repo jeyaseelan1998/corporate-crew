@@ -10,8 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "final-form": "^4.20.10",
+    "final-form-arrays": "^3.1.0",
+    "final-form-focus": "^1.1.2",
+    "final-form-submit-listener": "^1.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-final-form": "^6.5.9",
     "react-router-dom": "^7.5.3"
   },
   "devDependencies": {
