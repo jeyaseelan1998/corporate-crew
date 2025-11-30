@@ -1,0 +1,43 @@
+{
+    "logo": {
+        "light": "/images/light-logo.png",
+        "dark": "/images/darks-logo.png"
+    },
+    "menus": [
+        {
+            "label": "Home",
+            "sub_menus": [
+                {
+                    "label": "Video",
+                    "url": "/"
+                },
+                {
+                    "label": "Slide show",
+                    "url": "/"
+                }
+            ]
+        },
+        {
+            "label": "Services",
+            "url": "/services"
+        },
+        {
+            "label": "Works",
+            "url": "/works"
+        },
+        {
+            "label": "About",
+            "url": "/about"
+        },
+        {
+            "label": "Contact",
+            "url": "/contact"
+        }
+    ],
+    "has_cart": true,
+    "contact_details": {
+        "text": "Call Us Today",
+        "phone": "1234567890",
+        "url": "tel:1234567890"
+    }
+}

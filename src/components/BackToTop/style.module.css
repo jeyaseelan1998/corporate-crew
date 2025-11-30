@@ -1,0 +1,53 @@
+.progressBar {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    border-radius: 50%;
+    transition: 400ms linear;
+    background: transparent;
+}
+
+.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.ring {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    transform: rotate(-90deg);
+}
+
+.bg {
+    fill: none;
+    stroke: #ddd;
+    stroke-width: 4;
+}
+
+.progress {
+    fill: none;
+    stroke: var(--red);
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    transition: stroke-dashoffset 0.2s linear;
+}
+
+.icon {
+    position: relative;
+    color: var(--red);
+    z-index: 2;
+    font-size: 18px;
+}

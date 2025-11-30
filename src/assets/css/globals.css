@@ -1,0 +1,44 @@
+/* Architects Daughter 400 */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+:root {
+    --red: #dc2751;
+    --black: #1b1b1b;
+    --grey: #727272;
+    --ash: #ccc;
+    --light: #fff;
+    --dark: #101010;
+    --poppins: "Poppins", "sans-serif";
+    --hind: "Hind", "sans-serif";
+    --cursive: "Architects Daughter", cursive;
+
+    --default-text: var(--black);
+}
+
+.dark {
+    --default-text: var(--light);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+body {
+    min-height: 100vh;
+    color: var(--default-text);
+    font-family: var(--hind);
+}
+
+button,
+a {
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .4s;
+    user-select: none;
+    font-family: var(--poppins);
+}
